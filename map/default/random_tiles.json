@@ -1,0 +1,34 @@
+{
+   "mainObj": 
+   [
+       {
+        "thing_name" : "ground_1", 
+        "randomTiles" : 
+            [
+                {
+                    "name" : "ground_1",
+                    "percentage" : 35
+                },
+                {
+                    "name" : "ground_2",
+                    "percentage" : 10
+                }
+            ]
+       },
+        {
+        "thing_name" : "f_barrel", 
+        "randomTiles" : 
+            [
+                {
+                    "name" : "f_bottles",
+                    "percentage" : 35
+                },
+                {
+                    "name" : "f_box",
+                    "percentage" : 10
+                }
+            ]
+       }      
+   ]
+  
+}

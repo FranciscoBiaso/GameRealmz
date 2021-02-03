@@ -1,0 +1,31 @@
+{
+   "thingsAutoBorders": 
+   [
+       {
+        "thing_name" : "ground_1", 
+        "thing_type" : "walkable", 
+        "border_left" : "str_2",
+        "border_right" : "str_2",
+        "border_top" : "str_3",
+        "border_bot" : "str_3",
+        "border_left-top" : "str_6",
+        "border_right-top" : "str_7",
+        "border_left-bot" : "str_4",
+        "border_right-bot" : "str_5"
+       },
+       
+       {
+        "thing_name" : "gro_b", 
+        "thing_type" : "not_walkable", 
+        "border_left" : "str_b_3",
+        "border_right" : "str_b_2",
+        "border_top" : "str_b_4",
+        "border_bot" : "str_b_1",
+        "border_left-top" : "str_b_9",
+        "border_right-top" : "str_b_12",
+        "border_left-bot" : "str_b_11",
+        "border_right-bot" : "str_b_10"
+       }
+   ]
+  
+}
