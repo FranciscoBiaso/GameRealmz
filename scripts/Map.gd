@@ -48,5 +48,5 @@ func load_map() -> void:
 				if thing_type == "ground":
 					thing.connect("on_thing_enter", get_parent().get_node("Player"), "on_thing_enter")
 					thing.connect("on_thing_leave", get_parent().get_node("Player"), "on_thing_leave")
-			thing.z_index = z_order
+			thing.z_index = definition.Render.LAYERS.GAME + z_order
 			add_child(thing)

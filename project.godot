@@ -10,12 +10,12 @@ config_version=4
 
 _global_script_classes=[ {
 "base": "Node",
-"class": "Utils",
+"class": "definition",
 "language": "GDScript",
-"path": "res://scripts/Utils.gd"
+"path": "res://scripts/Definitions.gd"
 } ]
 _global_script_class_icons={
-"Utils": ""
+"definition": ""
 }
 
 [application]
@@ -24,6 +24,15 @@ config/name="Realmz"
 run/main_scene="res://scenes/Main.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+GameGlobal="*res://scripts/GameGlobal.gd"
+Utils="*res://scripts/Utils.gd"
+Paths="*res://scripts/Paths.gd"
+UI="*res://scenes/UI.tscn"
+NodeAccess="*res://scripts/NodeAccess.gd"
+
 [rendering]
 
+quality/driver/driver_name="GLES2"
 environment/default_environment="res://default_env.tres"

@@ -8,7 +8,6 @@ email: kikinhobiaso@gmail.com
 
 All resources are loaded and accessed through this module.
 """
-
 extends Node
 
 # Global resource variables #
@@ -25,7 +24,7 @@ func _ready():
 	load_audios()
 
 # Load map data #
-func load_map_resources() -> void:	
+func load_map_resources() -> void:		
 	g_img_pack = Utils.FileHandler.read_json_dictionary_from_txt(Utils.FileHandler.read_txt_from_file("map/default/img_pack.json"))
 	g_stuff_book = Utils.FileHandler.read_json_dictionary_from_txt(Utils.FileHandler.read_txt_from_file("map/default/stuff_book.json"))
 	g_map_things = Utils.FileHandler.read_json_dictionary_from_txt(Utils.FileHandler.read_txt_from_file("map/default/map_things.json"))	

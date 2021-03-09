@@ -1,0 +1,43 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Main Menu/onlyportrait.png" type="Texture" id=1]
+[ext_resource path="res://scripts/CharacterSmallPanel.gd" type="Script" id=2]
+
+[sub_resource type="StyleBoxFlat" id=1]
+
+[sub_resource type="StyleBoxFlat" id=2]
+
+[sub_resource type="StyleBoxFlat" id=3]
+
+[sub_resource type="StyleBoxFlat" id=4]
+
+[sub_resource type="StyleBoxFlat" id=5]
+
+[node name="CharacterSmallPanel" type="Panel"]
+margin_right = 200.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 200, 60 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PortraitButton" type="Button" parent="."]
+margin_right = 34.0
+margin_bottom = 35.0
+custom_styles/hover = SubResource( 1 )
+custom_styles/pressed = SubResource( 2 )
+custom_styles/focus = SubResource( 3 )
+custom_styles/disabled = SubResource( 4 )
+custom_styles/normal = SubResource( 5 )
+icon = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CharnameLabel" type="Label" parent="."]
+margin_left = 53.0
+margin_top = 4.0
+margin_right = 191.0
+margin_bottom = 18.0
+text = "Name"

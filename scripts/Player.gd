@@ -8,7 +8,6 @@ email: kikinhobiaso@gmail.com
 
 This module represents a player character.
 """
-
 extends Area2D
 
 func _ready():	
