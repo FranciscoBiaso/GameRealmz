@@ -14,7 +14,7 @@ extends Node
 const GRID_SIZE := 32
 
 # File manipulator #
-class FileHandler:
+class FileHandler:	
 	static func read_json_array_from_txt(txt) -> Array:
 		var data_parse = JSON.parse(txt)
 		if data_parse.error != OK:

@@ -14,6 +14,10 @@ var playerCharacterGD : GDScript = preload("res://Creature/PlayerCharacter.gd")
 var gameScreenTSCN : PackedScene = preload("res://scenes/GameScreenNode2D.tscn")
 var gamescreenInstance
 
+enum eGameStates {off,startGame,inGame,saveGame,endGame}
+enum eCombatStates {off,startCombat,inCombat,endCombatFail,endCombatSuccess}
+
+
 func _ready():
 	pass
 # UI start ------------------- #
